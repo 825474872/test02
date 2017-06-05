@@ -52,11 +52,11 @@ body{
     overflow: hidden;
 }
 #section5{
-    background: url("../image/skills-bg.jpg") no-repeat center;
+    background: url("../img/skills-bg.jpg") no-repeat center;
     background-attachment: fixed;
 }
 #section7{
-    background: url("../image/achivements-bg.jpg") no-repeat center;
+    background: url("../img/achivements-bg.jpg") no-repeat center;
     background-attachment: fixed;
 }
 .cv-container{
@@ -178,19 +178,19 @@ body{
     }
 }
 .bg-img li:nth-child(1){
-    background: url(../image/bg1.jpg) no-repeat center ;
+    background: url(../img/34.jpg) no-repeat center ;
     background-size: cover;
 }
 .bg-img li:nth-child(2){
-    background: url(../image/bg2.jpg) no-repeat center ;
+    background: url(../img/34.jpg) no-repeat center ;
     background-size: cover;
 }
 .bg-img li:nth-child(3){
-    background: url(../image/bg3.jpg) no-repeat center ;
+    background: url(../img/22.jpg) no-repeat center ;
     background-size: cover;
 }
 .bg-img li:nth-child(4){
-    background: url(../image/bg4.jpg) no-repeat center ;
+    background: url(../img/2222.jpg) no-repeat center ;
     background-size: cover;
 }
 #section1 h3{
@@ -326,7 +326,7 @@ body{
     font-size: 14px;
 }
 #section3{
-    background: url("../image/services-bg.jpg") no-repeat center;
+    background: url("../img/services-bg.jpg") no-repeat center;
     background-attachment: fixed;
 }
 
@@ -489,6 +489,22 @@ div.skill p{
     transform: rotate(288deg);
     transition: 2s;
 
+}
+#section5.active .fades>div:nth-child(5) .left-clip {
+    transform: rotate(288deg);
+    transition: 2s;
+}
+#section5.active .fades>div:nth-child(6) .left-clip {
+    transform: rotate(288deg);
+    transition: 2s;
+}
+#section5.active .fades>div:nth-child(7) .left-clip {
+    transform: rotate(280deg);
+    transition: 2s;
+}
+#section5.active .fades>div:nth-child(8) .left-clip {
+    transform: rotate(280deg);
+    transition: 2s;
 }
 #section5 .ptitle{
     letter-spacing: 2px;
